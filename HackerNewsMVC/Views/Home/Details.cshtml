@@ -1,0 +1,62 @@
+﻿@model HackerNewsMVC.Models.StoryModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>StoryModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.by)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.by)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.descendants)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.descendants)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.score)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.score)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.time)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.time)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.type)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.type)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.url)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.url)
+        </dd>
+    </dl>
+</div>
